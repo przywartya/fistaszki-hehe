@@ -8,9 +8,7 @@ $(document).ready(function () {
 		setTimeout(function(){
 	    $(".przycisk").html("<p>"+item['user']+"</p><p>"+item['commentText']+"</p>")
 			stop = 1;
-			$('.przycisk').css('background-image', 'url("https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/19399692_1954106954804443_7511942356344464986_n.jpg?oh=41cc819471cd860c8ea8d2e2e1a98b13&oe=5A03CABB")');
-			$('.przycisk').css('background-size', '100% 100%;');
-			$('.przycisk').css('color', 'white');
+			$('.a').css('background-image', 'url("https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/19399692_1954106954804443_7511942356344464986_n.jpg?oh=41cc819471cd860c8ea8d2e2e1a98b13&oe=5A03CABB")');
 	  }, 5000);
 	});
     for (let i = 0; i < data.length; i++){
