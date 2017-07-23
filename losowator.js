@@ -1,11 +1,16 @@
 
 
+var stop = 0;
 $(document).ready(function () {
 	$(".przycisk").click(function () {
 		var item = data[Math.floor(Math.random()*data.length)];
 		$(".przycisk").html("<i class='fa fa-cog fa-spin fa-3x fa-fw'></i>");
 		setTimeout(function(){
 	    $(".przycisk").html("<p>"+item['user']+"</p><p>"+item['commentText']+"</p>")
+			stop = 1;
+			$('.przycisk').css('background-image', 'url("https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/19399692_1954106954804443_7511942356344464986_n.jpg?oh=41cc819471cd860c8ea8d2e2e1a98b13&oe=5A03CABB")');
+			$('.przycisk').css('background-size', '100% 100%;');
+			$('.przycisk').css('color', 'white');
 	  }, 5000);
 	});
     for (let i = 0; i < data.length; i++){
@@ -29,7 +34,9 @@ function newDiv(user, commentText) {
             top: newq[0],
             left: newq[1]
         }, speed, function () {
-            animateDiv();
+					if (stop === 0) {
+	            animateDiv();
+					}
         });
     };
 }
