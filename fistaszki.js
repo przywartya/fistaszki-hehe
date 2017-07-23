@@ -84,10 +84,6 @@ var data = [
     "commentText": "fistaszek"
   },
   {
-    "user": "JohnySpinZone 02",
-    "commentText": "FISTASZEK"
-  },
-  {
     "user": "ELIT",
     "commentText": "fistaszek"
   },
@@ -309,10 +305,6 @@ var data = [
   },
   {
     "user": "Rumcajs",
-    "commentText": "FISTASZEK"
-  },
-  {
-    "user": "Rumcajs",
     "commentText": "fistaszek"
   },
   {
@@ -461,10 +453,6 @@ var data = [
   },
   {
     "user": "Cezary Abcdef",
-    "commentText": "FISTASZEK"
-  },
-  {
-    "user": "Cezary Abcdef",
     "commentText": "fistaszek"
   },
   {
@@ -554,10 +542,6 @@ var data = [
   {
     "user": "Nazi Ball",
     "commentText": "Fistaszekek"
-  },
-  {
-    "user": "Szymon Stoltmann",
-    "commentText": "Staszek?"
   },
   {
     "user": "EpickGhost",
@@ -850,10 +834,6 @@ var data = [
   {
     "user": "Bartek Odziemkowski",
     "commentText": "fistaszek 🥜"
-  },
-  {
-    "user": "PLkasztanek",
-    "commentText": "FISTASZEK"
   },
   {
     "user": "PLkasztanek",
@@ -1513,10 +1493,6 @@ var data = [
   },
   {
     "user": "zatri",
-    "commentText": "FISTASZEK"
-  },
-  {
-    "user": "zatri",
     "commentText": "fistaszek"
   },
   {
@@ -1988,14 +1964,6 @@ var data = [
     "commentText": "fistaszek"
   },
   {
-    "user": "Kasia Z",
-    "commentText": "fistaszek"
-  },
-  {
-    "user": "Kasia Z",
-    "commentText": "fistaszek"
-  },
-  {
     "user": "BiZu",
     "commentText": "FISTASZEK\n  _____\n{..'-`.._;..-'; \n   `'--.._..-'   <-- to jest fistaszek jak coś"
   },
@@ -2014,10 +1982,6 @@ var data = [
   {
     "user": "Konop",
     "commentText": "fistaszek"
-  },
-  {
-    "user": "Mateusz Izdebski",
-    "commentText": "\"FISTASZEK\""
   },
   {
     "user": "Mateusz Izdebski",
@@ -2904,14 +2868,6 @@ var data = [
     "commentText": "FISTASZEK"
   },
   {
-    "user": "Derion",
-    "commentText": "FISTASZEK"
-  },
-  {
-    "user": "Derion",
-    "commentText": "FISTASZEK"
-  },
-  {
     "user": "Kacper Srebro",
     "commentText": "fistaszek"
   },
@@ -3346,10 +3302,6 @@ var data = [
   {
     "user": "Aga Bb",
     "commentText": "FISTASZEK :D"
-  },
-  {
-    "user": "Aga Bb",
-    "commentText": "FISTASZEK"
   },
   {
     "user": "Mateusz Foltyn",

@@ -3,7 +3,10 @@
 $(document).ready(function () {
 	$(".przycisk").click(function () {
 		var item = data[Math.floor(Math.random()*data.length)];
-    	console.log(item)
+		$(".przycisk").html("<i class='fa fa-cog fa-spin fa-3x fa-fw'></i>");
+		setTimeout(function(){
+	    $(".przycisk").html("<p>"+item['user']+"</p><p>"+item['commentText']+"</p>")
+	  }, 5000);
 	});
     for (let i = 0; i < data.length; i++){
     	let user = data[i]['user'];
@@ -32,8 +35,8 @@ function newDiv(user, commentText) {
 }
 
 function makeNewPosition() {
-    var h = $(window).height() - 300;
-    var w = $(window).width() - 50;
+    var h = $(window).height() - 320;
+    var w = $(window).width() - 70;
     var nh = Math.floor(Math.random() * h);
     var nw = Math.floor(Math.random() * w);
     return [nh, nw];
